@@ -41,13 +41,56 @@
                   </svg>+38 096 111 11 11</a></li>
                 </ul> 
               </div>
-            <!-- mobile menu -->
-            <button type="button" class="mobile-menu-open">
+             <button type="button" class="mobile-menu-open" data-modal-open>
                <svg class="mobile-menu-open_icon" width="40" height="40">
                   <use href="./images/icons.svg#icon-burger-menu"></use>
                </svg>
-            </button>
-           </div>
+             </button>
+          </div>
+
+            <!-- mobile menu -->
+
+               <div class="mobile-menu" data-modal>
+                  <div class="container mobile-menu_container">
+                    <button type="button" class="mobile-menu_close-btn" data-modal-close>
+                        <svg class="mobile-menu_close-icon" width="40" heigth="40">
+                          <use href="./images/icons.svg#icon-close-modal"></use>
+                       </svg></button>
+                   <ul class="mobile-nav">
+                       <li class="mobile-menu_list">
+                        <a href="./index.html" class="mobile-menu_link mobile-menu_link--curent">Студія</a>
+                      </li>
+                       <li class="mobile-menu_list">
+                         <a href="./portfolio.html" class="mobile-menu_link">Портфоліо</a>
+                       </li>
+                      <li class="mobile-menu_list"><a href="" class="mobile-menu_link">Контакти</a>
+                     </li>
+                   </ul>
+                   <ul class="mobile-contact">
+                       <li class="mobile-contact_menu">
+                         <a href="" class="contact-icon phone">+38 096 111 11 11</a>
+                       </li>
+                     <li class="mobile-contact_menu">
+                        <a href="" class="contact-icon">info@devstudio.com</a>
+                     </li>
+                    </ul>
+                    <ul class="mobile-social">
+                       <li class="mobile-social_menu">
+                         <a href="" class="mobile-social_link">Instagram</a>
+                       </li>
+                       <li class="mobile-social_menu">
+                         <a href="" class="mobile-social_link">Twitter</a>
+                       </li>
+                       <li class="mobile-social_menu">
+                         <a href="" class="mobile-social_link">Facebook</a>
+                       </li>
+                       <li class="mobile-social_menu">
+                         <a href="" class="mobile-social_link">LinkedIn</a>
+                       </li>
+                    </ul> 
+                  </div>
+               </div> 
+           
         </header>
 
     <!--Main-->
@@ -325,8 +368,8 @@
       </footer> -->
 
       <!-- Модальне вікно -->
-<!-- 
-      <div class="backdrop is-hidden" data-modal>
+
+      <!-- <div class="backdrop is-hidden" data-modal>
          <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close><svg class="modal-close-btn-icon" width="18px" height="18px"><use href="images/icons.svg#icon-close-modal"></use></svg></button>
             <form class="modal-form">
@@ -374,9 +417,9 @@
             </form>
          </div>
 
-      </div>
+      </div> -->
 
-
-   <script src="./js/modal.js"></script> -->
+   <script src="./js/mobile-menu.js"></script>
+   <!-- <script src="./js/modal.js"></script>  -->
    </body>
 </html>
