@@ -639,7 +639,9 @@ background-color: #188CE8;
 }
 
 @media screen and (max-width: 767px) {
-
+.section-title {
+    text-align: center;
+}
 
 }
 
@@ -649,6 +651,9 @@ background-color: #188CE8;
 }
 
  @media screen and (min-width: 1200px) {
+    .section-title {
+     text-align:unset;}
+     
     .section-activity {
     padding-top: 94px;
  }
