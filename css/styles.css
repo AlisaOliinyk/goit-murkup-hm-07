@@ -963,12 +963,10 @@ background-color: #188CE8;
         }
 
     .name {
-      /* margin-bottom: 30px; */
         color: var(--title-text-color);
             line-height: 1.188;
             text-align: center;
             letter-spacing: 0.03em;
-           
     }
 
     
@@ -983,15 +981,14 @@ background-color: #188CE8;
         gap: 10px;
         align-items: center;
         justify-content: center;
-        width: 206px;
-        height: 44px;
+       
         
     }
 
-    .social-item {
-        display: inline-flex;
-         flex-basis: calc((100%-60px)/4); 
-    }
+     .social-item {
+        width: 44px;
+        height: 44px;
+    } 
 
   .social-link {
       display: flex;
@@ -1023,10 +1020,6 @@ background-color: #188CE8;
     color: #FFFFFF;
     background-color: var(--accent-color);
     }
-
-
-  
-
 
 
 /* section clients */
