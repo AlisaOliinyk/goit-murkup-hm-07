@@ -175,6 +175,7 @@ ul {
     position: relative;
     display: flex;
    align-items: flex-start;
+   height: 100%;
         flex-direction: column;
         justify-content: space-between;
         padding-top: 48px;
