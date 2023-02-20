@@ -147,7 +147,7 @@ ul {
 
 
 @media screen and (max-width: 767px) {
-    
+   
 
 .mobile-menu {
     position: fixed;
@@ -203,7 +203,7 @@ ul {
 }
 
 .mobile-nav {
-    margin-bottom: 306px;
+    margin-bottom: 106px;
 }
 .mobile-menu_link {
     font-weight: 500;
