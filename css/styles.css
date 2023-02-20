@@ -380,7 +380,7 @@ font-weight: 500;
      gap: 0;}
 
      .contact-menu {
-     margin-right: 30px;
+     margin-right: 20px;
     }
      .icon-envelope {
       margin-right: 10px;
@@ -502,7 +502,7 @@ screen and (min-width: 1200px) {
     /* margin-right: 30px; */
 }
 .contact-menu:last-child {
-    margin-right: 0;
+    margin-right: 10px;
 }
 
 
@@ -632,6 +632,7 @@ background-color: #188CE8;
 
 .card-set {
     display: flex;
+    justify-content: center;
     padding: 0;
     list-style: none;
     flex-wrap: wrap;
